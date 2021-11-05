@@ -112,3 +112,59 @@ main {
     width: 300px;
     height: 200px;
 }
+
+/* Locations */
+
+.locations-container {
+    margin-top: 4em;
+    background-image: url("../img/img-locations-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 600px;
+    opacity: 0.9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.locations-container h2 {
+    text-align: center;
+    width: 100%;
+    height: 1em;
+    margin-top: 1em;
+}
+
+.location-container {
+    background-color: #202020;
+    width: 300px;
+    height: 300px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location-container h3,
+.location-container p {
+    margin: 1em 0;
+    text-align: center;
+}
+
+/* Contact */
+
+.contact-container {
+    height: 200px;
+}
+
+.contact-container h2,
+.contact-container h5 {
+    text-align: center;
+}
+
+/* Copyright */
+#copyright {
+    margin-left: 20px;
+    text-align: left;
+}
